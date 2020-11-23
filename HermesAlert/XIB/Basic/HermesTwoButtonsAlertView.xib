@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17125"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="FrankfurterMedium.ttf">
+            <string>FrankfurterD-Medi</string>
+        </array>
+        <array key="work-sans-light.ttf">
+            <string>WorkSans-Light</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="HermesTwoButtonsAlertViewController" customModule="Hermes" customModuleProvider="target">
+            <connections>
+                <outlet property="alertCancelButton" destination="HpM-xm-peN" id="JDh-Rh-4eZ"/>
+                <outlet property="alertConfirmButton" destination="pXN-Ju-Sd7" id="DXS-l5-uXx"/>
+                <outlet property="alertContainer" destination="mkD-Xx-g9a" id="nht-Vg-m0v"/>
+                <outlet property="alertIconImageView" destination="qJg-jA-FiQ" id="66P-j5-SXf"/>
+                <outlet property="alertMessageLabel" destination="ANZ-ND-r3y" id="21X-hR-V4f"/>
+                <outlet property="alertTitleLabel" destination="ncQ-Wz-Lqa" id="WeX-i6-oXp"/>
+                <outlet property="view" destination="iN0-l3-epB" id="Poq-gM-moX"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="mkD-Xx-g9a">
+                    <rect key="frame" x="30" y="287" width="354" height="322.5"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Title" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ncQ-Wz-Lqa">
+                            <rect key="frame" x="10" y="128" width="334" height="24.5"/>
+                            <fontDescription key="fontDescription" name="FrankfurterD-Medi" family="FrankfurterDMed" pointSize="21"/>
+                            <color key="textColor" name="info"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Message max 2 lines height" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="ANZ-ND-r3y">
+                            <rect key="frame" x="10" y="187.5" width="334" height="17.5"/>
+                            <fontDescription key="fontDescription" name="WorkSans-Light" family="Work Sans" pointSize="15"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pXN-Ju-Sd7">
+                            <rect key="frame" x="30" y="240" width="120" height="54"/>
+                            <color key="backgroundColor" name="info"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="54" id="9tj-Si-bVo"/>
+                                <constraint firstAttribute="width" constant="120" id="QmS-v4-TfZ"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="FrankfurterD-Medi" family="FrankfurterDMed" pointSize="17"/>
+                            <inset key="titleEdgeInsets" minX="0.0" minY="0.0" maxX="0.0" maxY="4"/>
+                            <state key="normal" title="OK">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </state>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HpM-xm-peN">
+                            <rect key="frame" x="204" y="240" width="120" height="54"/>
+                            <color key="backgroundColor" name="error"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="120" id="Vwe-IV-4WC"/>
+                                <constraint firstAttribute="height" constant="54" id="eoQ-2g-dc5"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="FrankfurterD-Medi" family="FrankfurterDMed" pointSize="17"/>
+                            <inset key="titleEdgeInsets" minX="0.0" minY="0.0" maxX="0.0" maxY="4"/>
+                            <state key="normal" title="CANCEL">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </state>
+                        </button>
+                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="information" translatesAutoresizingMaskIntoConstraints="NO" id="qJg-jA-FiQ">
+                            <rect key="frame" x="137" y="28" width="80" height="80"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="80" id="Fal-FI-pWv"/>
+                                <constraint firstAttribute="width" constant="80" id="j9G-H3-zZZ"/>
+                            </constraints>
+                        </imageView>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstItem="HpM-xm-peN" firstAttribute="centerY" secondItem="pXN-Ju-Sd7" secondAttribute="centerY" id="025-uf-ZkH"/>
+                        <constraint firstAttribute="trailing" secondItem="ncQ-Wz-Lqa" secondAttribute="trailing" constant="10" id="3q4-bW-jwQ"/>
+                        <constraint firstItem="ncQ-Wz-Lqa" firstAttribute="top" secondItem="qJg-jA-FiQ" secondAttribute="bottom" constant="20" id="CYN-gu-tqu"/>
+                        <constraint firstItem="ncQ-Wz-Lqa" firstAttribute="leading" secondItem="mkD-Xx-g9a" secondAttribute="leading" constant="10" id="DAw-Pp-Xgs"/>
+                        <constraint firstAttribute="bottom" secondItem="pXN-Ju-Sd7" secondAttribute="bottom" constant="28.5" id="EYo-Qw-TeT"/>
+                        <constraint firstItem="qJg-jA-FiQ" firstAttribute="top" secondItem="mkD-Xx-g9a" secondAttribute="top" constant="28" id="MlP-F9-X4D"/>
+                        <constraint firstItem="qJg-jA-FiQ" firstAttribute="centerX" secondItem="mkD-Xx-g9a" secondAttribute="centerX" id="Nnx-Ug-qUQ"/>
+                        <constraint firstAttribute="trailing" secondItem="HpM-xm-peN" secondAttribute="trailing" constant="30" id="UbT-5W-KJM"/>
+                        <constraint firstItem="pXN-Ju-Sd7" firstAttribute="leading" secondItem="mkD-Xx-g9a" secondAttribute="leading" constant="30" id="dus-GZ-1li"/>
+                        <constraint firstAttribute="trailing" secondItem="ANZ-ND-r3y" secondAttribute="trailing" constant="10" id="hog-qW-ygG"/>
+                        <constraint firstItem="pXN-Ju-Sd7" firstAttribute="top" secondItem="ANZ-ND-r3y" secondAttribute="bottom" constant="35" id="ou7-6a-QiL"/>
+                        <constraint firstItem="HpM-xm-peN" firstAttribute="top" secondItem="pXN-Ju-Sd7" secondAttribute="top" id="p08-S2-Soe"/>
+                        <constraint firstItem="ANZ-ND-r3y" firstAttribute="top" secondItem="ncQ-Wz-Lqa" secondAttribute="bottom" constant="35" id="tJL-Mf-gWy"/>
+                        <constraint firstItem="ANZ-ND-r3y" firstAttribute="leading" secondItem="mkD-Xx-g9a" secondAttribute="leading" constant="10" id="wJV-pY-mfb"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="mkD-Xx-g9a" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="30" id="EKa-Zy-1WC"/>
+                <constraint firstItem="mkD-Xx-g9a" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="hAf-gO-8mC"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="mkD-Xx-g9a" secondAttribute="trailing" constant="30" id="uJY-TW-91Y"/>
+            </constraints>
+            <point key="canvasLocation" x="116" y="48.125937031484263"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="information" width="128" height="128"/>
+        <namedColor name="error">
+            <color red="0.7803921568627451" green="0.30980392156862746" blue="0.27058823529411763" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="info">
+            <color red="0.28627450980392155" green="0.65490196078431373" blue="0.90980392156862744" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>
