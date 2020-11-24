@@ -85,7 +85,8 @@ class HermesAlertViewController: UIViewController {
     /// Set the alert icon choosing from the set of existing icon
     /// - Parameter name: The name of icon to set
     func setAlertIcon(by name: String) {
-        self.icon = UIImage(named: name, in: Bundle(for: HermesAlertViewController.self), compatibleWith: nil)
+        let bundle = Bundle(for: HermesSimpleAlertViewController.classForCoder())
+        self.icon = UIImage(named: name, in: bundle, compatibleWith: nil)
         
     }
     

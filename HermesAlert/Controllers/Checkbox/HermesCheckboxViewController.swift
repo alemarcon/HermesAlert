@@ -39,8 +39,9 @@ class HermesCheckboxViewController: HermesAlertViewController {
     }
     
     override func customizeAlertInterface() {
-        alertCheckboxButton.setImage(UIImage(named: "checked", in: Bundle(for: HermesAlertViewController.self), compatibleWith: nil), for: .selected)
-        alertCheckboxButton.setImage(UIImage(named: "circle", in: Bundle(for: HermesAlertViewController.self), compatibleWith: nil), for: .normal)
+        let bundle = Bundle(for: HermesSimpleAlertViewController.classForCoder())
+        alertCheckboxButton.setImage(UIImage(named: "checked", in: bundle, compatibleWith: nil), for: .selected)
+        alertCheckboxButton.setImage(UIImage(named: "circle", in: bundle, compatibleWith: nil), for: .normal)
         
         alertView.layer.masksToBounds = true
         alertView.layer.cornerRadius = 22.0
