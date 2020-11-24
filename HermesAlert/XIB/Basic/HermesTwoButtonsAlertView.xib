@@ -8,16 +8,8 @@
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
-    <customFonts key="customFonts">
-        <array key="FrankfurterMedium.ttf">
-            <string>FrankfurterD-Medi</string>
-        </array>
-        <array key="work-sans-light.ttf">
-            <string>WorkSans-Light</string>
-        </array>
-    </customFonts>
     <objects>
-        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="HermesTwoButtonsAlertViewController" customModule="Hermes" customModuleProvider="target">
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="HermesTwoButtonsAlertViewController" customModule="HermesAlert" customModuleProvider="target">
             <connections>
                 <outlet property="alertCancelButton" destination="HpM-xm-peN" id="JDh-Rh-4eZ"/>
                 <outlet property="alertConfirmButton" destination="pXN-Ju-Sd7" id="DXS-l5-uXx"/>
@@ -34,40 +26,40 @@
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="mkD-Xx-g9a">
-                    <rect key="frame" x="30" y="287" width="354" height="322.5"/>
+                    <rect key="frame" x="30" y="286" width="354" height="324"/>
                     <subviews>
                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Title" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ncQ-Wz-Lqa">
-                            <rect key="frame" x="10" y="128" width="334" height="24.5"/>
-                            <fontDescription key="fontDescription" name="FrankfurterD-Medi" family="FrankfurterDMed" pointSize="21"/>
+                            <rect key="frame" x="10" y="128" width="334" height="25.5"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="21"/>
                             <color key="textColor" name="info"/>
                             <nil key="highlightedColor"/>
                         </label>
                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Message max 2 lines height" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="ANZ-ND-r3y">
-                            <rect key="frame" x="10" y="187.5" width="334" height="17.5"/>
-                            <fontDescription key="fontDescription" name="WorkSans-Light" family="Work Sans" pointSize="15"/>
+                            <rect key="frame" x="10" y="188.5" width="334" height="18"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="15"/>
                             <nil key="highlightedColor"/>
                         </label>
                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pXN-Ju-Sd7">
-                            <rect key="frame" x="30" y="240" width="120" height="54"/>
+                            <rect key="frame" x="30" y="241.5" width="120" height="54"/>
                             <color key="backgroundColor" name="info"/>
                             <constraints>
                                 <constraint firstAttribute="height" constant="54" id="9tj-Si-bVo"/>
                                 <constraint firstAttribute="width" constant="120" id="QmS-v4-TfZ"/>
                             </constraints>
-                            <fontDescription key="fontDescription" name="FrankfurterD-Medi" family="FrankfurterDMed" pointSize="17"/>
+                            <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
                             <inset key="titleEdgeInsets" minX="0.0" minY="0.0" maxX="0.0" maxY="4"/>
                             <state key="normal" title="OK">
                                 <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </state>
                         </button>
                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HpM-xm-peN">
-                            <rect key="frame" x="204" y="240" width="120" height="54"/>
+                            <rect key="frame" x="204" y="241.5" width="120" height="54"/>
                             <color key="backgroundColor" name="error"/>
                             <constraints>
                                 <constraint firstAttribute="width" constant="120" id="Vwe-IV-4WC"/>
                                 <constraint firstAttribute="height" constant="54" id="eoQ-2g-dc5"/>
                             </constraints>
-                            <fontDescription key="fontDescription" name="FrankfurterD-Medi" family="FrankfurterDMed" pointSize="17"/>
+                            <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
                             <inset key="titleEdgeInsets" minX="0.0" minY="0.0" maxX="0.0" maxY="4"/>
                             <state key="normal" title="CANCEL">
                                 <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
