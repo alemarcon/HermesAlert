@@ -13,6 +13,7 @@
 		2D05FCDD256C6D9200FC7D94 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D05FCDB256C6D9200FC7D94 /* Main.storyboard */; };
 		2D05FCDF256C6D9200FC7D94 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D05FCDE256C6D9200FC7D94 /* Assets.xcassets */; };
 		2D05FCE2256C6D9200FC7D94 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D05FCE0256C6D9200FC7D94 /* LaunchScreen.storyboard */; };
+		2D277E28256CFE34007FE0DA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2DF4832B2567D8CE00320882 /* Assets.xcassets */; };
 		2D6F8D35256C1C2600D5FFDF /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D6F8D34256C1C2600D5FFDF /* Constant.swift */; };
 		2DBEACB9256BACBD00C0471F /* UIApplication+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DBEACB8256BACBD00C0471F /* UIApplication+Extension.swift */; };
 		2DF482BA2567BF0600320882 /* Hermes.h in Headers */ = {isa = PBXBuildFile; fileRef = 2DF482B82567BF0600320882 /* Hermes.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -33,7 +34,6 @@
 		2DF483332567E56A00320882 /* UIColor+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DF483322567E56A00320882 /* UIColor+Extensions.swift */; };
 		2DF483382567FC4400320882 /* HermesAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DF483372567FC4400320882 /* HermesAlert.swift */; };
 		2DF4833B2567FC7500320882 /* HermesAlertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DF4833A2567FC7500320882 /* HermesAlertViewController.swift */; };
-		2DF483492568191400320882 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2DF4832B2567D8CE00320882 /* Assets.xcassets */; };
 		2DF4835225681EE900320882 /* HermesEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DF4835125681EE900320882 /* HermesEnum.swift */; };
 		2DF483592568285E00320882 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2DF483582568285E00320882 /* Colors.xcassets */; };
 		2DF4835D25682B3F00320882 /* HermesAlertDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DF4835C25682B3F00320882 /* HermesAlertDelegate.swift */; };
@@ -116,14 +116,6 @@
 			path = IG;
 			sourceTree = "<group>";
 		};
-		2DBEACB7256BACAE00C0471F /* Extension */ = {
-			isa = PBXGroup;
-			children = (
-				2DBEACB8256BACBD00C0471F /* UIApplication+Extension.swift */,
-			);
-			path = Extension;
-			sourceTree = "<group>";
-		};
 		2DBEACC0256BC33F00C0471F /* IG */ = {
 			isa = PBXGroup;
 			children = (
@@ -201,7 +193,6 @@
 		2DF482B72567BF0600320882 /* HermesAlert */ = {
 			isa = PBXGroup;
 			children = (
-				2DBEACB7256BACAE00C0471F /* Extension */,
 				2DF4835B25682B2400320882 /* Alert */,
 				2DF483572568284400320882 /* Assets */,
 				2DF483312567E55E00320882 /* Extensions */,
@@ -252,6 +243,7 @@
 		2DF483312567E55E00320882 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				2DBEACB8256BACBD00C0471F /* UIApplication+Extension.swift */,
 				2DF483322567E56A00320882 /* UIColor+Extensions.swift */,
 			);
 			path = Extensions;
@@ -394,11 +386,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2DF483492568191400320882 /* Assets.xcassets in Resources */,
 				2DF483232567D10800320882 /* HermesInstagramAlertView.xib in Resources */,
 				2DF483212567D10800320882 /* HermesSimpleAlertView.xib in Resources */,
 				2DF483252567D10800320882 /* HermesTwoButtonsAlertView.xib in Resources */,
 				2DF483242567D10800320882 /* HermesTextFieldAlertView.xib in Resources */,
+				2D277E28256CFE34007FE0DA /* Assets.xcassets in Resources */,
 				2DF483222567D10800320882 /* HermesCheckboxView.xib in Resources */,
 				2DF483592568285E00320882 /* Colors.xcassets in Resources */,
 			);
@@ -642,7 +634,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0.0;
+				MARKETING_VERSION = 1.0.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.marcon.HermesAlert;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
@@ -670,7 +662,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0.0;
+				MARKETING_VERSION = 1.0.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.marcon.HermesAlert;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;

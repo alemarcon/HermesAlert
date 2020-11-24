@@ -3,12 +3,10 @@
 # HermesAlert
 An elegant and lightweight alert for iOS, customizable and very easy to use.
 
-### ALERT GIFs WILL BE HERE
-
 # Requirements
-iOS xxx  
-Xcode ...  
-Swift ...
+iOS 12.0  
+Xcode 12.0  
+Swift 5.0
 
 # Installation
 
@@ -29,6 +27,20 @@ Hermes(message: "Hi everybody!!").show()
 
 and a cool alert will showed to you on your screen. Easy, right?
 
+# HermesAlertType
+You can easily change the appearance of your alert by changing the parameter
+```Swift
+alert: HermesAlertType
+```
+You can choose between different types and each of these will transform the appearance of the alert depending on the type selected.
+
+## Customization
+Anyway, you can customize your alert appearance specifing any single aspect of the alert also after it's initialization
+
+# Manage alert button response
+If you need to do specific operation after that button will tapped, you should implement **HermesAlertDelegate** that provide 2 methods responding to buttons of alerts. You will also have parameters that specify data inserted in alert (if you use Textbox alert for example).
+
+Anyway, if you don't need to manage alert response, you don't need to implement it's delegate.
 
 # Hermes origin
 Why Hermes?? No i'm not a fashon addicted (as someone could think about) but Hermes, in ancient Greek religion and mythology is considered the herald of the gods. In myth, Hermes functioned as the emissary and messenger of the gods and here, Hermes would be the messenger of your app.
