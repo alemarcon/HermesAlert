@@ -58,6 +58,7 @@
                         </button>
                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="F8n-2C-jAt">
                             <rect key="frame" x="50" y="128" width="30" height="30"/>
+                            <accessibility key="accessibilityConfiguration" identifier="checkbox_button"/>
                             <constraints>
                                 <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="30" id="5E1-Bm-IR8"/>
                                 <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="30" id="mxw-eN-629"/>

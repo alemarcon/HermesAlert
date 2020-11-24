@@ -35,6 +35,7 @@ class HermesInstagramAlertViewController: HermesAlertViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        view.accessibilityIdentifier = "instagramAlertView"
 
     }
     

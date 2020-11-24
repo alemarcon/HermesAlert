@@ -15,6 +15,7 @@
 		2D05FCE2256C6D9200FC7D94 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D05FCE0256C6D9200FC7D94 /* LaunchScreen.storyboard */; };
 		2D277E28256CFE34007FE0DA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2DF4832B2567D8CE00320882 /* Assets.xcassets */; };
 		2D6F8D35256C1C2600D5FFDF /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D6F8D34256C1C2600D5FFDF /* Constant.swift */; };
+		2D73F959256D448E003472B0 /* HermesAlertExamplesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D73F958256D448E003472B0 /* HermesAlertExamplesUITests.swift */; };
 		2DBEACB9256BACBD00C0471F /* UIApplication+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DBEACB8256BACBD00C0471F /* UIApplication+Extension.swift */; };
 		2DF482BA2567BF0600320882 /* Hermes.h in Headers */ = {isa = PBXBuildFile; fileRef = 2DF482B82567BF0600320882 /* Hermes.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2DF483072567D0D900320882 /* BounceAnimationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DF483032567D0D900320882 /* BounceAnimationController.swift */; };
@@ -39,6 +40,16 @@
 		2DF4835D25682B3F00320882 /* HermesAlertDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DF4835C25682B3F00320882 /* HermesAlertDelegate.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		2D73F95B256D448E003472B0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2DF482AC2567BF0600320882 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2D05FCD2256C6D9200FC7D94;
+			remoteInfo = HermesAlertExamples;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
 		2D05FCD3256C6D9200FC7D94 /* HermesAlertExamples.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HermesAlertExamples.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D05FCD5256C6D9200FC7D94 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +60,9 @@
 		2D05FCE1256C6D9200FC7D94 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2D05FCE3256C6D9200FC7D94 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2D6F8D34256C1C2600D5FFDF /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		2D73F956256D448E003472B0 /* HermesAlertExamplesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HermesAlertExamplesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D73F958256D448E003472B0 /* HermesAlertExamplesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HermesAlertExamplesUITests.swift; sourceTree = "<group>"; };
+		2D73F95A256D448E003472B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2DBEACB8256BACBD00C0471F /* UIApplication+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIApplication+Extension.swift"; sourceTree = "<group>"; };
 		2DF482B52567BF0600320882 /* HermesAlert.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HermesAlert.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2DF482B82567BF0600320882 /* Hermes.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Hermes.h; sourceTree = "<group>"; };
@@ -78,6 +92,13 @@
 
 /* Begin PBXFrameworksBuildPhase section */
 		2D05FCD0256C6D9200FC7D94 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D73F953256D448E003472B0 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -114,6 +135,15 @@
 				2DF4831E2567D10800320882 /* HermesInstagramAlertView.xib */,
 			);
 			path = IG;
+			sourceTree = "<group>";
+		};
+		2D73F957256D448E003472B0 /* HermesAlertExamplesUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2D73F958256D448E003472B0 /* HermesAlertExamplesUITests.swift */,
+				2D73F95A256D448E003472B0 /* Info.plist */,
+			);
+			path = HermesAlertExamplesUITests;
 			sourceTree = "<group>";
 		};
 		2DBEACC0256BC33F00C0471F /* IG */ = {
@@ -177,6 +207,7 @@
 			children = (
 				2DF482B72567BF0600320882 /* HermesAlert */,
 				2D05FCD4256C6D9200FC7D94 /* HermesAlertExamples */,
+				2D73F957256D448E003472B0 /* HermesAlertExamplesUITests */,
 				2DF482B62567BF0600320882 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -186,6 +217,7 @@
 			children = (
 				2DF482B52567BF0600320882 /* HermesAlert.framework */,
 				2D05FCD3256C6D9200FC7D94 /* HermesAlertExamples.app */,
+				2D73F956256D448E003472B0 /* HermesAlertExamplesUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -317,6 +349,24 @@
 			productReference = 2D05FCD3256C6D9200FC7D94 /* HermesAlertExamples.app */;
 			productType = "com.apple.product-type.application";
 		};
+		2D73F955256D448E003472B0 /* HermesAlertExamplesUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2D73F95D256D448E003472B0 /* Build configuration list for PBXNativeTarget "HermesAlertExamplesUITests" */;
+			buildPhases = (
+				2D73F952256D448E003472B0 /* Sources */,
+				2D73F953256D448E003472B0 /* Frameworks */,
+				2D73F954256D448E003472B0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2D73F95C256D448E003472B0 /* PBXTargetDependency */,
+			);
+			name = HermesAlertExamplesUITests;
+			productName = HermesAlertExamplesUITests;
+			productReference = 2D73F956256D448E003472B0 /* HermesAlertExamplesUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 		2DF482B42567BF0600320882 /* HermesAlert */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2DF482BD2567BF0600320882 /* Build configuration list for PBXNativeTarget "HermesAlert" */;
@@ -347,6 +397,10 @@
 					2D05FCD2256C6D9200FC7D94 = {
 						CreatedOnToolsVersion = 12.0.1;
 					};
+					2D73F955256D448E003472B0 = {
+						CreatedOnToolsVersion = 12.0.1;
+						TestTargetID = 2D05FCD2256C6D9200FC7D94;
+					};
 					2DF482B42567BF0600320882 = {
 						CreatedOnToolsVersion = 12.0.1;
 					};
@@ -367,6 +421,7 @@
 			targets = (
 				2DF482B42567BF0600320882 /* HermesAlert */,
 				2D05FCD2256C6D9200FC7D94 /* HermesAlertExamples */,
+				2D73F955256D448E003472B0 /* HermesAlertExamplesUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -379,6 +434,13 @@
 				2D05FCE2256C6D9200FC7D94 /* LaunchScreen.storyboard in Resources */,
 				2D05FCDF256C6D9200FC7D94 /* Assets.xcassets in Resources */,
 				2D05FCDD256C6D9200FC7D94 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D73F954256D448E003472B0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -409,6 +471,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		2D73F952256D448E003472B0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D73F959256D448E003472B0 /* HermesAlertExamplesUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		2DF482B12567BF0600320882 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -433,6 +503,14 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2D73F95C256D448E003472B0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2D05FCD2256C6D9200FC7D94 /* HermesAlertExamples */;
+			targetProxy = 2D73F95B256D448E003472B0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		2D05FCDB256C6D9200FC7D94 /* Main.storyboard */ = {
@@ -489,6 +567,46 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2D73F95E256D448E003472B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GB5KHBW76F;
+				INFOPLIST_FILE = HermesAlertExamplesUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.marcon.HermesAlertExamplesUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HermesAlertExamples;
+			};
+			name = Debug;
+		};
+		2D73F95F256D448E003472B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GB5KHBW76F;
+				INFOPLIST_FILE = HermesAlertExamplesUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.marcon.HermesAlertExamplesUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HermesAlertExamples;
 			};
 			name = Release;
 		};
@@ -634,7 +752,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0.4;
+				MARKETING_VERSION = 1.0.5;
 				PRODUCT_BUNDLE_IDENTIFIER = com.marcon.HermesAlert;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
@@ -662,7 +780,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0.4;
+				MARKETING_VERSION = 1.0.5;
 				PRODUCT_BUNDLE_IDENTIFIER = com.marcon.HermesAlert;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
@@ -680,6 +798,15 @@
 			buildConfigurations = (
 				2D05FCE5256C6D9200FC7D94 /* Debug */,
 				2D05FCE6256C6D9200FC7D94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D73F95D256D448E003472B0 /* Build configuration list for PBXNativeTarget "HermesAlertExamplesUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D73F95E256D448E003472B0 /* Debug */,
+				2D73F95F256D448E003472B0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
