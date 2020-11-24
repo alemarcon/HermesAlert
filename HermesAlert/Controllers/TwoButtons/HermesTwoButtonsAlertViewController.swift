@@ -37,6 +37,7 @@ class HermesTwoButtonsAlertViewController: HermesAlertViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        view.accessibilityIdentifier = "twoButtonsAlertView"
     }
     
     override func customizeAlertInterface() {

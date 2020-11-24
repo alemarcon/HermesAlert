@@ -40,6 +40,7 @@ class HermesSimpleAlertViewController: HermesAlertViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        view.accessibilityIdentifier = "simpleAlertView"
     }
     
     //MARK: - Basic UI Customization

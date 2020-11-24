@@ -79,6 +79,7 @@
                 </view>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MEh-io-Rn7" customClass="PMButton" customModule="HermesAlert" customModuleProvider="target">
                     <rect key="frame" x="319" y="196.5" width="50" height="50"/>
+                    <accessibility key="accessibilityConfiguration" identifier="textfield_close_button"/>
                     <constraints>
                         <constraint firstAttribute="width" constant="50" id="DJ0-J1-69n"/>
                         <constraint firstAttribute="width" secondItem="MEh-io-Rn7" secondAttribute="height" multiplier="1:1" id="FBq-gN-UEO"/>

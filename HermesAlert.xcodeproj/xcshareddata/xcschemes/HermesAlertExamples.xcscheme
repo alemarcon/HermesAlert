@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "2DF482B42567BF0600320882"
-               BuildableName = "HermesAlert.framework"
-               BlueprintName = "HermesAlert"
+               BlueprintIdentifier = "2D05FCD2256C6D9200FC7D94"
+               BuildableName = "HermesAlertExamples.app"
+               BlueprintName = "HermesAlertExamples"
                ReferencedContainer = "container:HermesAlert.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -29,6 +29,16 @@
       shouldUseLaunchSchemeArgsEnv = "YES"
       codeCoverageEnabled = "YES">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "2D73F955256D448E003472B0"
+               BuildableName = "HermesAlertExamplesUITests.xctest"
+               BlueprintName = "HermesAlertExamplesUITests"
+               ReferencedContainer = "container:HermesAlert.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
    </TestAction>
    <LaunchAction
@@ -41,6 +51,16 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "2D05FCD2256C6D9200FC7D94"
+            BuildableName = "HermesAlertExamples.app"
+            BlueprintName = "HermesAlertExamples"
+            ReferencedContainer = "container:HermesAlert.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
    </LaunchAction>
    <ProfileAction
       buildConfiguration = "Release"
@@ -48,15 +68,16 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
-      <MacroExpansion>
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "2DF482B42567BF0600320882"
-            BuildableName = "HermesAlert.framework"
-            BlueprintName = "HermesAlert"
+            BlueprintIdentifier = "2D05FCD2256C6D9200FC7D94"
+            BuildableName = "HermesAlertExamples.app"
+            BlueprintName = "HermesAlertExamples"
             ReferencedContainer = "container:HermesAlert.xcodeproj">
          </BuildableReference>
-      </MacroExpansion>
+      </BuildableProductRunnable>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">

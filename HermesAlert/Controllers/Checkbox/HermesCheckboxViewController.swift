@@ -19,6 +19,7 @@ class HermesCheckboxViewController: HermesAlertViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        view.accessibilityIdentifier = "checkboxAlertView"
     }
     
     override init(nibName nibNameOrNil: String?, bundle nibBundleOrNil: Bundle?) {
