@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "HermesAlert"
-  spec.version      = "1.0.1"
+  spec.version      = "1.0.2"
   spec.summary      = "A lightwight, fully customizable iOS alert framework."
 
   # This description is used to generate tags and improve search results.
@@ -85,6 +85,6 @@ Pod::Spec.new do |spec|
   #  Not including the public_header_files will make all headers public.
   #
 
-  spec.source_files  = "HermesAlert", "HermesAlert/**/*{h,m,swift,xib}"
-  # spec.resources = 'HermesAlert/HermesAlert/XIB/**/*.xib'
+  spec.source_files  = "HermesAlert", "HermesAlert/**/*{h,m,swift}"
+  spec.resources = 'HermesAlert/**/*{xib}'
 end
