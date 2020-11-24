@@ -16,8 +16,9 @@ class HermesInstagramAlertViewController: HermesAlertViewController {
     @IBOutlet weak var alertTitleLabel: UILabel!
     @IBOutlet weak var alertMessageLabel: UILabel!
 
-    override init(nibName nibNameOrNil: String?, bundle nibBundleOrNil: Bundle?)   {
-        super.init(nibName: HermesConst.IG_ALERT_XIB, bundle: Bundle(identifier: HermesConst.myBundle))
+    override init(nibName nibNameOrNil: String?, bundle nibBundleOrNil: Bundle?) {
+        let bundle = Bundle(for: HermesSimpleAlertViewController.classForCoder())
+        super.init(nibName: HermesConst.IG_ALERT_XIB, bundle: bundle)
         modalPresentationStyle = .custom
         transitioningDelegate = self
     }

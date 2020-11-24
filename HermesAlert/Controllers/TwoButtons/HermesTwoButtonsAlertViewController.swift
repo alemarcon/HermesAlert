@@ -29,7 +29,8 @@ class HermesTwoButtonsAlertViewController: HermesAlertViewController {
     
     
     override init(nibName nibNameOrNil: String?, bundle nibBundleOrNil: Bundle?)   {
-        super.init(nibName: HermesConst.TWO_BUTTON_XIB, bundle: Bundle(identifier: HermesConst.myBundle))
+        let bundle = Bundle(for: HermesSimpleAlertViewController.classForCoder())
+        super.init(nibName: HermesConst.TWO_BUTTON_XIB, bundle: bundle)
         modalPresentationStyle = .custom
         transitioningDelegate = self
     }

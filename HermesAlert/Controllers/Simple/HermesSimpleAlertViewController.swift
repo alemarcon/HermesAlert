@@ -16,7 +16,8 @@ class HermesSimpleAlertViewController: HermesAlertViewController {
     @IBOutlet weak var alertIconImageView: UIImageView!
     
     override init(nibName nibNameOrNil: String?, bundle nibBundleOrNil: Bundle?)   {
-        super.init(nibName: HermesConst.SIMPLE_ALERT_XIB, bundle: Bundle(identifier: HermesConst.myBundle))
+        let bundle = Bundle(for: HermesSimpleAlertViewController.classForCoder())
+        super.init(nibName: HermesConst.SIMPLE_ALERT_XIB, bundle: bundle)
         modalPresentationStyle = .custom
         transitioningDelegate = self
     }

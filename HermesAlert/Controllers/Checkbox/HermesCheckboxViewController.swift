@@ -21,8 +21,9 @@ class HermesCheckboxViewController: HermesAlertViewController {
         super.viewDidLoad()
     }
     
-    override init(nibName nibNameOrNil: String?, bundle nibBundleOrNil: Bundle?)   {
-        super.init(nibName: HermesConst.CHECKBOX_XIB, bundle: Bundle(identifier: HermesConst.myBundle))
+    override init(nibName nibNameOrNil: String?, bundle nibBundleOrNil: Bundle?) {
+        let bundle = Bundle(for: HermesSimpleAlertViewController.classForCoder())
+        super.init(nibName: HermesConst.CHECKBOX_XIB, bundle: bundle)
         modalPresentationStyle = .custom
         transitioningDelegate = self
     }
