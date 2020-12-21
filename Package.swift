@@ -20,9 +20,11 @@ let package = Package(
         // Targets can depend on other targets in this package, and on products in packages this package depends on.
         .target(
             name: "HermesAlert",
-            dependencies: []),
+            dependencies: [],
+            exclude: ["Info.plist"]),
         .testTarget(
             name: "HermesAlertTests",
-            dependencies: ["HermesAlert"]),
+            dependencies: ["HermesAlert"],
+            exclude: ["Info.plist"]),
     ]
 )
