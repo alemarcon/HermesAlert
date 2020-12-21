@@ -19,6 +19,18 @@ CocoaPods is a dependency manager for Cocoa projects. For usage and installation
 pod 'HermesAlert'
 ```
 
+## Swift Package Manager
+
+The Swift Package Manager is a tool for managing the distribution of Swift code. It’s integrated with the Swift build system to automate the process of downloading, compiling and linking dependencies.
+
+Once you have your Swift package set up, adding Hermes Alert as a dependency is as easy as adding it to the dependencies value of your Package.swift.
+
+```Swift
+dependencies: [
+    .package(url: "https://github.com/alemarcon/HermesAlert.git", .upToNextMajor(from: "1.0.6"))
+]
+```
+
 # Get start
 
 Show an alert on Hermes is very easy and required just 1 line of code. In your view controller just type:

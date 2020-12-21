@@ -85,6 +85,6 @@ Pod::Spec.new do |spec|
   #  Not including the public_header_files will make all headers public.
   #
 
-  spec.source_files  = "HermesAlert", "HermesAlert/**/*{h,m,swift}"
-  spec.resources = 'HermesAlert/**/*{xib,xcassets}'
+  spec.source_files  = "Sources/HermesAlert", "Sources/HermesAlert/**/*{h,m,swift}"
+  spec.resources = 'Sources/HermesAlert/**/*{xib,xcassets}'
 end
